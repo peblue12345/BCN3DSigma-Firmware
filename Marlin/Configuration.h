@@ -914,7 +914,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 	
 	
 	#if BCN3D_PRINTER_SETUP == BCN3D_PRINTER_IS_SIGMA
-		//Left extruder probe point
+		//左挤出机探针点 
 		#define X_SIGMA_PROBE_1_LEFT_EXTR 55
 		#define Y_SIGMA_PROBE_1_LEFT_EXTR 265
 		//#define Y_SIGMA_PROBE_1_LEFT_EXTR 275
