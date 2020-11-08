@@ -852,7 +852,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define REMOVE_FIL_TEMP		170
 #define INSERT_FIL_TEMP		230
 
-//For better understanding on which extruder is selected
+//为了更好地了解选择哪个挤出机 
 #define LEFT_EXTRUDER 0 
 #define RIGHT_EXTRUDER 1
 
