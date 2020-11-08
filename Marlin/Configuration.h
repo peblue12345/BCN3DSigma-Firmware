@@ -156,7 +156,7 @@
 
 
 
-// Define this to set a custom name for your generic Mendel,
+//定义此名称以为通用Mendel设置自定义名称，
 // #define CUSTOM_MENDEL_NAME "This Mendel"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
@@ -1049,7 +1049,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #if BCN3D_PRINTER_SETUP == BCN3D_PRINTER_IS_SIGMA
 	#define NOZZLE_PARK_DISTANCE_BED_X0	47
 	#define NOZZLE_PARK_DISTANCE_BED_Y0	-2.5
-	#define PRINTER_BED_X_SIZE	210.0
+	#define PRINTER_BED_X_SIZE	315
 #endif
 #if BCN3D_PRINTER_SETUP == BCN3D_PRINTER_IS_SIGMAX
 	#define NOZZLE_PARK_DISTANCE_BED_X0	53.5
