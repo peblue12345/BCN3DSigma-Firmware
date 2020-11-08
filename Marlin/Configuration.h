@@ -6,9 +6,9 @@
 //SIGMA_Z_HOME_TRAVEL_SPEED , XY_SIGMA_TRAVEL_SPEED, HOMING_FEEDRATE, DEFAULT_AXIS_STEPS_PER_UNIT, DEFAULT_MAX_FEEDRATE, DEFAULT_MAX_ACCELERATION, X_MAX_POS   
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// This configuration file contains the basic settings.
-// Advanced settings can be found in Configuration_adv.h
-// BASIC SETTINGS: select your board type, temperature sensor type, axis scaling, and endstop configuration
+//此配置文件包含基本设置。
+//可以在Configuration_adv.h中找到高级设置
+//基本设置：选择您的电路板类型，温度传感器类型，轴缩放和终点挡块配置
 
 //===========================================================================
 //============================= DELTA Printer ===============================
@@ -17,11 +17,11 @@
 // example_configurations/delta directory.
 //
 
-//===========================================================================
-//============================= SCARA Printer ===============================
-//===========================================================================
-// For a Delta printer replace the configuration files with the files in the
-// example_configurations/SCARA directory.
+//================================================ ==========================
+//=========================== SCARA打印机================== ==============
+//================================================ ==========================
+//对于Delta打印机，请将配置文件替换为
+//example_configurations /SCARA目录。 
 //
 
 //#define BUILD_DATE 
@@ -33,9 +33,9 @@
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "(none, default config)" // Who made the changes.
 
-// SERIAL_PORT selects which serial port should be used for communication with the host.
-// This allows the connection of wireless adapters (for instance) to non-default port pins.
-// Serial port 0 is still used by the Arduino bootloader regardless of this setting.
+//SERIAL_PORT选择应使用哪个串行端口与主机进行通信。
+//这允许将无线适配器（例如）连接到非默认端口引脚。
+//无论此设置如何，Arduino引导加载程序仍使用串行端口0。
 #define SERIAL_PORT 0
 
 // This determines the communication speed of the printer
